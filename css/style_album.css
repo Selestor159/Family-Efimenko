@@ -1,0 +1,173 @@
+*
+{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 auto;
+}
+body
+{
+    background-color: #F8F8F8;
+	margin: 0px 0px;
+}
+a
+{
+    text-decoration: none;
+}
+.text
+{
+	text-decoration: none;
+	color: #676770;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	transition: color .1s linear;
+    transition: font-size 0.3s ease-out;
+
+}
+.text:hover
+{
+	color: #2385db;
+    font-size: 21px;
+
+}
+
+.container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 135px;
+
+}
+/*Header*/
+.header
+{
+    background-color: white;
+	width: 100%;
+	z-index: 1000;
+}
+.header__inner
+{
+
+	padding:15px 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 60px;
+}
+.header__logo
+{
+    cursor: default;
+    font-family: 'Alata';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+	color: #ca1a1a;
+
+}
+/*Nav*/
+.nav
+{
+    display: flex;
+}
+.nav__link
+{
+    cursor: default;
+    padding:5px 0;
+    margin-right: 40px;
+	
+}
+
+/*features*/
+.features
+{
+	width: 100%;
+	z-index: 1000;
+}
+.features__inner
+{
+    padding-top: 130px;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+.color
+{
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 33.33%;
+}
+@media screen and (max-width:1250px)
+{
+    .container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 50px;
+
+}
+}
+@media screen and (max-width:1110px)
+{
+    .anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 50%;
+}
+}
+@media screen and (max-width:755px)
+{
+    .container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 60px;
+
+}
+    img
+{
+   width: 100%;
+   object-fit: cover;
+
+}
+    .anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.color
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+}
+
+
+
+
+
+
