@@ -20,10 +20,10 @@ a
 {
 	text-decoration: none;
 	color: #676770;
-	font-family: 'Open Sans';
+	font-family: 'Oswald';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 20px;
 	text-decoration: none;
 	transition: color .1s linear;
@@ -66,10 +66,10 @@ a
 .header__logo
 {
     cursor: default;
-    font-family: 'Alata';
+    font-family: 'Oswald';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 27px;
 	line-height: 25px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -90,6 +90,37 @@ a
 	
 
 }
+/*End*/
+.end
+{
+	padding-top: 15px;
+	background-color: #302c2c;
+	width: 100%;
+	height: 60px;
+}
+.end_text
+{
+
+    font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+	color:white;
+}
+.end_end
+{
+	color: #8a8787;
+}
+.bruh
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 @media screen and (max-width:1000px)
 {
 	.container
@@ -108,10 +139,10 @@ a
 	{
 		text-decoration: none;
 		color: #676770;
-		font-family: 'Open Sans';
+		font-family: 'Oswald';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 17px;
 		line-height: 20px;
 		text-decoration: none;
 		transition: color .1s linear;
@@ -167,7 +198,7 @@ a
 	width: 100%;
 	text-align: center;
     cursor: default;
-    font-family: 'Alata';
+    font-family: 'Oswald';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 25px;
@@ -176,9 +207,37 @@ a
 	text-transform: uppercase;
 
 	color: #ca1a1a;
+}
+.end
+{
+	text-align: center;
+	padding-top: 15px;
+	background-color: #302c2c;
+	width: 100%;
+	height: 80px;
+}
+.end_text
+{
+	
+	width: 100%;
+	padding-bottom: 15px;
+    font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
 
+	color:white;
+}
+.end_end
+{
+	width: 100%;
+	color: #8a8787;
 }
 }
+
 /*features*/
 .features
 {
@@ -208,12 +267,16 @@ a
 }
 .title__anreta
 {
+	font-weight: bolder;
+	font-family: 'Montserrat';
 	font-size: 20px;
 	text-align: center;
 	margin: 7px 0;
 }
 .text__anketa
 {
+	font-weight: bold;
+	font-family: 'Montserrat';
 	font-size: 16px;
 	text-align: center;
 	margin: 7px 0;
