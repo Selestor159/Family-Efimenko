@@ -409,21 +409,31 @@ a
 	color: #8a8787;
 }
 }
-
+@media screen and (max-width:410px)
+{
+	.color
+	{
+		
+		margin-top: 50px;
+		width: 87%;
+	
+	
+	}
+}
 @media screen and (max-width:450px)
 {
-	.container
+.container
 	{
 		width: 100%;
 		max-width: 1440px;
 		margin: 0 auto;
 		padding: 0 30px;
 	}
-	.color
+.color
 {
 	
 	margin-top: 50px;
-    width: 75%;
+    width: 80%;
 
 
 }
@@ -441,5 +451,5 @@ a
 }
 
 
-
 }
+
