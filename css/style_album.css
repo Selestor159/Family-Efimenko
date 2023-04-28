@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6
 }
 body
 {
-	background: url(index.jpg);
+	background: url(../img/index.jpg);
    /* background-color: #F8F8F8;*/
 	margin: 0px 0px;
 }
