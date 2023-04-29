@@ -18,6 +18,7 @@ a
 }
 .text
 {
+	display: inline-block;
 	text-decoration: none;
 	color: #676770;
 	font-family: 'Oswald';
@@ -27,13 +28,13 @@ a
 	line-height: 20px;
 	text-decoration: none;
 	transition: color .1s linear;
-    transition: font-size 0.3s ease-out;
+    transition: transform 0.3s ease-out;
 
 }
 .text:hover
 {
 	color: #2385db;
-    font-size: 21px;
+    transform: scale(1.25);
 
 }
 
@@ -272,21 +273,20 @@ a
 	{
 		text-decoration: none;
 		color: #676770;
-		font-family: 'Open Sans';
+		font-family: 'Oswald';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 17px;
 		line-height: 20px;
 		text-decoration: none;
 		transition: color .1s linear;
-		transition: font-size 0.3s ease-out;
+		transition: transform 0.3s ease-out;
 	
 	}
 	.text:hover
 	{
 		color: #2385db;
-		font-size: 17px;
-	
+		transform: scale(1.25);
 	}
 }
 @media screen and (max-width:650px)
