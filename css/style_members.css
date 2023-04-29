@@ -53,6 +53,7 @@ a
     background-color: white;
 	width: 100%;
 	z-index: 1000;
+
 }
 .header__inner
 {
@@ -123,9 +124,13 @@ a
 	justify-content: space-between;
 }
 .photo {
-display: block;
+	align-items: center;
+	position: relative;
+	display: block;
+	margin: 15px 0;
 
    }
+
 .photo img{
 	display: block;
 	border-radius: 10px;
@@ -134,6 +139,128 @@ display: block;
 .photo img:hover{
 	border-radius: 30px;
 	transform: scale(1.09);
+
+}
+.img
+{
+	display:block;
+margin:auto;
+}
+
+/*features*/
+.features
+{
+	width: 100%;
+	z-index: 1000;
+}
+.features__inner
+{
+    padding-top: 130px;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+.color
+{
+
+	display: grid;
+	align-items: center;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.anketa
+{ 
+
+    align-items: center;
+    padding-bottom: 50px;
+    width: 33.33%;
+}
+.title__anreta
+{
+	font-weight: bolder;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	text-align: center;
+	margin: 7px 0;
+}
+.text__anketa
+{
+	font-weight: bold;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	text-align: center;
+	margin: 7px 0;
+}
+
+@media screen and (max-width:1250px)
+{
+    .container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 50px;
+
+}
+}
+@media screen and (max-width:1110px)
+{
+    .anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 50%;
+}
+}
+@media screen and (max-width:755px)
+{
+.features__inner
+{
+    padding-top: 80px;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+    .container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 30px;
+
+}
+    .anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.color
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.photo {
+	display: block;
+	margin: 15px 0;
+
+   }
+
+.photo img{
+	display: block;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.photo img:hover{
+	border-radius: 30px;
+	transform: scale(1.09);
+
+}
 
 }
 @media screen and (max-width:1000px)
@@ -252,106 +379,6 @@ display: block;
 	width: 100%;
 	color: #8a8787;
 }
-}
-
-/*features*/
-.features
-{
-	width: 100%;
-	z-index: 1000;
-}
-.features__inner
-{
-    padding-top: 130px;
-	display: flex;
-    flex-wrap: wrap;
-
-}
-.color
-{
-    width: 90%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px 15px;
-}
-
-.anketa
-{
-    align-items: center;
-    padding-bottom: 50px;
-    width: 33.33%;
-}
-.title__anreta
-{
-	font-weight: bolder;
-	font-family: 'Montserrat';
-	font-size: 20px;
-	text-align: center;
-	margin: 7px 0;
-}
-.text__anketa
-{
-	font-weight: bold;
-	font-family: 'Montserrat';
-	font-size: 16px;
-	text-align: center;
-	margin: 7px 0;
-}
-.photo
-{
-	margin: 15px 0;
-}
-@media screen and (max-width:1250px)
-{
-    .container
-{
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 0 50px;
-
-}
-}
-@media screen and (max-width:1110px)
-{
-    .anketa
-{
-    align-items: center;
-    padding-bottom: 50px;
-    width: 50%;
-}
-}
-@media screen and (max-width:755px)
-{
-.features__inner
-{
-    padding-top: 80px;
-	display: flex;
-    flex-wrap: wrap;
-
-}
-    .container
-{
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 0 30px;
-
-}
-    .anketa
-{
-    align-items: center;
-    padding-bottom: 50px;
-    width: 100%;
-}
-.color
-{
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px 15px;
-}
-
 }
 
 
