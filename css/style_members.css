@@ -122,6 +122,20 @@ a
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.photo {
+display: block;
+
+   }
+.photo img{
+	display: block;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.photo img:hover{
+	border-radius: 30px;
+	transform: scale(1.09);
+
+}
 @media screen and (max-width:1000px)
 {
 	.container
@@ -322,12 +336,6 @@ a
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 0 30px;
-
-}
-    img
-{
-   width: 100%;
-   object-fit: cover;
 
 }
     .anketa
