@@ -28,7 +28,7 @@ a
 	line-height: 20px;
 	text-decoration: none;
 	transition: color .1s linear;
-    transition: tramsform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
 
 }
 .text:hover
