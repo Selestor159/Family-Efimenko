@@ -211,13 +211,7 @@ a
     width: 33.33%;
 }
 
-.anketa_animal
-{ 
 
-    align-items: center;
-    padding-bottom: 50px;
-    width: 33.33%;
-}
 .title__anreta
 {
 	font-weight: bolder;
@@ -254,12 +248,7 @@ a
     padding-bottom: 50px;
     width: 50%;
 }
-.anketa_animal
-{
-    align-items: center;
-    padding-bottom: 50px;
-    width: 50%;
-}
+
 }
 @media screen and (max-width:755px)
 {
@@ -284,12 +273,7 @@ a
     padding-bottom: 50px;
     width: 100%;
 }
-.anketa_animal
-{
-    align-items: center;
-    padding-bottom: 50px;
-    width: 100%;
-}
+
 .color
 {
     width: 100%;
