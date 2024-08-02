@@ -79,6 +79,36 @@ a
 	color: #ca1a1a;
 
 }
+.features_text
+{
+	margin-top: 45px;
+	text-align: center;
+	cursor: default;
+    font-family: 'Oswald';
+	font-style: normal;
+	font-size: 35px;
+	line-height: 25px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	text-align: center;
+
+	color: #343135;
+}
+.features_text_end
+{
+	margin-bottom: 45px;
+	text-align: center;
+	cursor: default;
+    font-family: 'Oswald';
+	font-style: normal;
+	font-size: 35px;
+	line-height: 25px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	text-align: center;
+
+	color: #343135;
+}
 /*Nav*/
 .nav
 {
@@ -138,13 +168,15 @@ a
 }
 .photo img:hover{
 	border-radius: 30px;
-	transform: scale(1.09);
+	transform: scale(1.07);
 
 }
 .img
 {
+	width: 100%;
+	height: 100%;
 	display:block;
-margin:auto;
+	margin:auto;
 }
 
 /*features*/
@@ -155,7 +187,7 @@ margin:auto;
 }
 .features__inner
 {
-    padding-top: 130px;
+    padding-top: 30px;
 	display: flex;
     flex-wrap: wrap;
 
@@ -167,11 +199,19 @@ margin:auto;
 	align-items: center;
     width: 90%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px 15px;
 }
 
 .anketa
+{ 
+
+    align-items: center;
+    padding-bottom: 50px;
+    width: 33.33%;
+}
+
+.anketa_animal
 { 
 
     align-items: center;
@@ -214,6 +254,12 @@ margin:auto;
     padding-bottom: 50px;
     width: 50%;
 }
+.anketa_animal
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 50%;
+}
 }
 @media screen and (max-width:755px)
 {
@@ -233,6 +279,12 @@ margin:auto;
 
 }
     .anketa
+{
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.anketa_animal
 {
     align-items: center;
     padding-bottom: 50px;
@@ -301,6 +353,21 @@ margin:auto;
 }
 @media screen and (max-width:650px)
 {
+	.header__logo
+{
+	width: 100%;
+	text-align: center;
+	
+
+}
+	.features_text
+	{
+		margin-top: 120px;
+	}
+	.features__inner
+	{
+    	padding-top: 40px;
+	}
 	.line
 	{
 		margin: 10px 0	;
